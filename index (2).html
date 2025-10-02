@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conoce los Riesgos - Educación sobre Drogas</title>
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🛡️ Conoce los Riesgos</h1>
+            <p class="subtitle">Información importante sobre las drogas y sus efectos</p>
+        </header>
+
+        <div class="intro-box">
+            <h2>¿Por qué es importante conocer esto?</h2>
+            <p>Tu salud y tu futuro son muy valiosos. Las drogas pueden parecer inofensivas al principio, pero tienen consecuencias graves para tu cuerpo, tu mente y tu vida. Aquí te mostramos la realidad sobre estas sustancias para que puedas tomar decisiones informadas y cuidar de ti mismo.</p>
+        </div>
+
+        <p class="click-hint">👇 Haz clic en cada tarjeta para descubrir los riesgos 👇</p>
+
+        <div class="cards-container">
+            <div class="drug-card" onclick="toggleCard(this)">
+                <div class="drug-icon">🍺</div>
+                <h3>Alcohol</h3>
+                <span class="warning-badge">⚠️ Riesgo Alto</span>
+                <div class="risk-list">
+                    <div class="risk-item"><strong>🧠 Cerebro:</strong> Daña la memoria y dificulta el aprendizaje</div>
+                    <div class="risk-item"><strong>💔 Hígado:</strong> Puede causar enfermedades graves como cirrosis</div>
+                    <div class="risk-item"><strong>🚗 Accidentes:</strong> Principal causa de accidentes de tráfico</div>
+                    <div class="risk-item"><strong>😔 Emociones:</strong> Aumenta la depresión y ansiedad</div>
+                    <div class="risk-item"><strong>👨‍👩‍👧 Relaciones:</strong> Daña vínculos familiares y amistades</div>
+                    <div class="risk-item"><strong>🎯 Adicción:</strong> Puede crear dependencia física y mental</div>
+                </div>
+            </div>
+
+            <div class="drug-card" onclick="toggleCard(this)">
+                <div class="drug-icon">🚬</div>
+                <h3>Tabaco/Cigarrillos</h3>
+                <span class="warning-badge">⚠️ Altamente Adictivo</span>
+                <div class="risk-list">
+                    <div class="risk-item"><strong>🫁 Pulmones:</strong> Causa cáncer de pulmón y enfermedades respiratorias</div>
+                    <div class="risk-item"><strong>❤️ Corazón:</strong> Aumenta riesgo de infartos</div>
+                    <div class="risk-item"><strong>🦷 Boca:</strong> Manchas en dientes, mal aliento, cáncer oral</div>
+                    <div class="risk-item"><strong>⚡ Adicción:</strong> La nicotina es extremadamente adictiva</div>
+                    <div class="risk-item"><strong>👃 Olfato/Gusto:</strong> Disminuye estos sentidos</div>
+                    <div class="risk-item"><strong>💰 Económico:</strong> Gasto constante de dinero</div>
+                </div>
+            </div>
+
+            <div class="drug-card" onclick="toggleCard(this)">
+                <div class="drug-icon">🌿</div>
+                <h3>Marihuana</h3>
+                <span class="warning-badge">⚠️ Afecta Desarrollo</span>
+                <div class="risk-list">
+                    <div class="risk-item"><strong>🧠 Memoria:</strong> Afecta la memoria a corto plazo</div>
+                    <div class="risk-item"><strong>📚 Aprendizaje:</strong> Dificulta concentración y rendimiento escolar</div>
+                    <div class="risk-item"><strong>🫁 Respiración:</strong> Daña los pulmones similar al tabaco</div>
+                    <div class="risk-item"><strong>🚗 Coordinación:</strong> Reduce reflejos y coordinación motora</div>
+                    <div class="risk-item"><strong>😰 Salud Mental:</strong> Puede causar ansiedad y paranoia</div>
+                    <div class="risk-item"><strong>🧬 Adolescentes:</strong> Afecta desarrollo cerebral en menores de 25 años</div>
+                </div>
+            </div>
+
+            <div class="drug-card" onclick="toggleCard(this)">
+                <div class="drug-icon">💊</div>
+                <h3>Drogas Sintéticas</h3>
+                <span class="warning-badge">⚠️ Extremadamente Peligroso</span>
+                <div class="risk-list">
+                    <div class="risk-item"><strong>☠️ Muerte:</strong> Alto riesgo de sobredosis fatal</div>
+                    <div class="risk-item"><strong>🧠 Cerebro:</strong> Daño permanente a las neuronas</div>
+                    <div class="risk-item"><strong>❤️ Corazón:</strong> Palpitaciones, infartos, muerte súbita</div>
+                    <div class="risk-item"><strong>🤯 Alucinaciones:</strong> Pérdida de contacto con la realidad</div>
+                    <div class="risk-item"><strong>😱 Pánico:</strong> Crisis de ansiedad severa</div>
+                    <div class="risk-item"><strong>⚗️ Desconocido:</strong> No sabes realmente qué contienen</div>
+                </div>
+            </div>
+
+            <div class="drug-card" onclick="toggleCard(this)">
+                <div class="drug-icon">💉</div>
+                <h3>Cocaína/Estimulantes</h3>
+                <span class="warning-badge">⚠️ Peligro Extremo</span>
+                <div class="risk-list">
+                    <div class="risk-item"><strong>💔 Corazón:</strong> Puede causar infarto inmediato</div>
+                    <div class="risk-item"><strong>👃 Nariz:</strong> Destruye el tabique nasal</div>
+                    <div class="risk-item"><strong>🧠 Sistema Nervioso:</strong> Daño cerebral permanente</div>
+                    <div class="risk-item"><strong>⚡ Adicción:</strong> Crea dependencia muy rápidamente</div>
+                    <div class="risk-item"><strong>😤 Agresividad:</strong> Aumenta comportamiento violento</div>
+                    <div class="risk-item"><strong>💸 Ruina:</strong> Destrucción financiera y social</div>
+                </div>
+            </div>
+
+            <div class="drug-card" onclick="toggleCard(this)">
+                <div class="drug-icon">🌬️</div>
+                <h3>Inhalantes</h3>
+                <span class="warning-badge">⚠️ Muerte Súbita</span>
+                <div class="risk-list">
+                    <div class="risk-item"><strong>☠️ Muerte Súbita:</strong> Puede matar la primera vez que se usa</div>
+                    <div class="risk-item"><strong>🧠 Cerebro:</strong> Daño cerebral irreversible</div>
+                    <div class="risk-item"><strong>🫀 Corazón:</strong> Paro cardíaco repentino</div>
+                    <div class="risk-item"><strong>🫁 Pulmones:</strong> Daño pulmonar grave</div>
+                    <div class="risk-item"><strong>🦴 Huesos:</strong> Debilitamiento de médula ósea</div>
+                    <div class="risk-item"><strong>👂 Audición:</strong> Pérdida permanente del oído</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-box">
+            <h2>📊 Datos Importantes</h2>
+            <div class="stat-item">
+                <span class="stat-number">9/10</span>
+                adicciones comienzan antes de los 18 años
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">1 de cada 4</span>
+                jóvenes ha recibido oferta de drogas
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">100%</span>
+                de las drogas tienen consecuencias negativas
+            </div>
+        </div>
+
+        <div class="help-section">
+            <h2>🤝 ¿Necesitas Ayuda o Más Información?</h2>
+            <p style="font-size: 1.1em; margin: 20px 0;">No estás solo. Hablar con alguien de confianza es el primer paso.</p>
+            <div class="help-buttons">
+                <a href="#" class="help-btn" onclick="alert('Habla con un profesor, consejero escolar o adulto de confianza'); return false;">👨‍🏫 Hablar con un Adulto</a>
+                <a href="#" class="help-btn" onclick="alert('Líneas de ayuda disponibles 24/7 en tu país'); return false;">📞 Líneas de Ayuda</a>
+                <a href="#" class="help-btn" onclick="alert('Comparte esta información con tus amigos'); return false;">👥 Compartir Info</a>
+            </div>
+            <p style="margin-top: 30px; color: #667eea; font-weight: bold; font-size: 1.2em;">
+                💪 Tu mejor decisión es decir NO a las drogas
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function toggleCard(card) {
+            const wasActive = card.classList.contains('active');
+            
+            document.querySelectorAll('.drug-card').forEach(c => {
+                c.classList.remove('active');
+            });
+            
+            if (!wasActive) {
+                card.classList.add('active');
+                card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+        }
+
+        // Agregar efecto de partículas en el fondo
+        document.addEventListener('mousemove', function(e) {
+            const particle = document.createElement('div');
+            particle.style.position = 'fixed';
+            particle.style.width = '5px';
+            particle.style.height = '5px';
+            particle.style.borderRadius = '50%';
+            particle.style.background = 'rgba(255,255,255,0.5)';
+            particle.style.left = e.clientX + 'px';
+            particle.style.top = e.clientY + 'px';
+            particle.style.pointerEvents = 'none';
+            particle.style.animation = 'fadeOut 1s ease forwards';
+            document.body.appendChild(particle);
+            
+            setTimeout(() => particle.remove(), 1000);
+        });
+
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes fadeOut {
+                to {
+                    opacity: 0;
+                    transform: translateY(-20px);
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
